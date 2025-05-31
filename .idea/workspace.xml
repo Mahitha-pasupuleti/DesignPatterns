@@ -4,37 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="19f594e6-09f8-4c2d-b818-8370b81fddcf" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/BuilderPattern/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/BuilderPattern/Director.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/BuilderPattern/EngineeringStudentBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/BuilderPattern/MBAStudentBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/BuilderPattern/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/BuilderPattern/StudentBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/StrategyPattern/AfterStrategy/AbstractStrategy/DisplayBehaviourStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/StrategyPattern/AfterStrategy/AbstractStrategy/FlyBehaviourStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/StrategyPattern/AfterStrategy/AbstractStrategy/QuackBehaviourStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/StrategyPattern/AfterStrategy/ConcreteStrategy/Display/PictureDisplay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/StrategyPattern/AfterStrategy/ConcreteStrategy/Display/TextDisplay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/StrategyPattern/AfterStrategy/ConcreteStrategy/Flying/FastFlying.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/StrategyPattern/AfterStrategy/ConcreteStrategy/Flying/NoFlying.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/StrategyPattern/AfterStrategy/ConcreteStrategy/Flying/SlowFlying.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/StrategyPattern/AfterStrategy/ConcreteStrategy/Quack/CuteQuacking.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/StrategyPattern/AfterStrategy/ConcreteStrategy/Quack/NoQuacking.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/StrategyPattern/AfterStrategy/ConcreteStrategy/Quack/WildQuacking.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/StrategyPattern/AfterStrategy/Duck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/StrategyPattern/BeforeStrategy/CityDuck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/StrategyPattern/BeforeStrategy/CloudDuck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/StrategyPattern/BeforeStrategy/Duck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/StrategyPattern/BeforeStrategy/MountainDuck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/StrategyPattern/BeforeStrategy/RubberDuck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/StrategyPattern/BeforeStrategy/WildDuck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+    <list default="true" id="19f594e6-09f8-4c2d-b818-8370b81fddcf" name="Changes" comment="Design Patterns First Commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,24 +23,25 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 1
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2xkNXXvpxkK33TqSTOJPOhya7KH" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Main" />
@@ -99,6 +71,50 @@
       <option name="presentableId" value="Default" />
       <updated>1748478154676</updated>
     </task>
+    <task id="LOCAL-00001" summary="Design Patterns First Commit">
+      <option name="closed" value="true" />
+      <created>1748482550721</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1748482550721</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Design Patterns First Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Design Patterns First Commit" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/target/classes/StrategyPattern/AfterStrategy/AbstractStrategy/QuackBehaviourStrategy.class</url>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
