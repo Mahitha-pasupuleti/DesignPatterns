@@ -1,0 +1,28 @@
+✅ has-a Relationship (Composition / Aggregation)
+This means a class contains another object as a field – "uses" relationship.
+
+Examples from your code:
+
+MobileObserverImpl has a reference to WeatherStationObservable
+→ "MobileObserverImpl has-a WeatherStationObservable"
+
+TvDisplayObserverImpl has references to both WeatherStationObservable and NewsStationObservable
+→ "TvDisplayObserverImpl has-a WeatherStationObservable and has-a NewsStationObservable"
+
+
+✅ is-a Relationship (Inheritance / Interface Implementation)
+This relationship occurs when a class implements an interface or extends another class.
+
+Examples from your code:
+
+MobileObserverImpl implements DeviceTypeTemperatureObserver
+→ "MobileObserverImpl is-a DeviceTypeTemperatureObserver"
+
+TvDisplayObserverImpl implements DeviceTypeTemperatureObserver
+→ "TvDisplayObserverImpl is-a DeviceTypeTemperatureObserver"
+
+WeatherStationObservableImpl implements WeatherStationObservable
+→ "WeatherStationObservableImpl is-a WeatherStationObservable"
+
+NewsStationObservableImpl implements NewsStationObservable
+→ "NewsStationObservableImpl is-a NewsStationObservable"

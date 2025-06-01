@@ -1,0 +1,8 @@
+ - Changing the behaviour of a class without changing the content inside it
+ - Decorator has-a component
+ - Decorator is-a component
+ - We have initial component(base), now the decorators adds some additional responsibilities to our
+ component
+ - So Decorator want's to talk to component, in turn decorator becomes a component itself as well
+ - These responsibilities can be added at runtime/dynamically
+ - This pattern replaces usage of subclasses and avoids class explosion scenario
