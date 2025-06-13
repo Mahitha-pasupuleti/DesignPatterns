@@ -1,6 +1,9 @@
 package org.example;
 
 // Importing Observer pattern classes for weather and news observables and observers
+import AbstractFactoryPattern.Factories.Factory;
+import AbstractFactoryPattern.Factories.VehicleFactory;
+import AbstractFactoryPattern.Factories.Vehicles.Vehicle;
 import DecoratorPattern.Component.BeverageComponent;
 import DecoratorPattern.Component.CafeLatteBeverageComponent;
 import DecoratorPattern.Component.ExpressoBeverageComponent;
@@ -8,6 +11,8 @@ import DecoratorPattern.Decorator.AlmondMilkAddOnDecorator;
 import DecoratorPattern.Decorator.CaramelAddOnDecorator;
 import DecoratorPattern.Decorator.ChocolateAddOnDecorator;
 import DecoratorPattern.Decorator.SugarSyrupAddOnDecorator;
+import FactoryPattern.Shape.Shape;
+import FactoryPattern.ShapeFactory.ShapeFactory;
 import ObserverPattern.WithConstructorInjection.Observable.News.NewsStationObservable;
 import ObserverPattern.WithConstructorInjection.Observable.News.NewsStationObservableImpl;
 import ObserverPattern.WithConstructorInjection.Observable.Wearther.WeatherStationObservable;
@@ -100,6 +105,33 @@ public class Main {
         System.out.println(cafeLatte.name()); // Outputs the name with all applied add-ons
         System.out.println("Cost of beverage is " + cafeLatte.cost()); // Outputs total cost
 
+
+        // Demonstrating Factory Pattern
+        System.out.println("..........");
+        System.out.println("### Factory Pattern ###");
+        System.out.println("..........");
+        ShapeFactory shapeFactory = new ShapeFactory();
+        Shape shapeCircle = shapeFactory.getShape("Circle");
+        shapeCircle.diagram();
+        Shape shapeRectangle = shapeFactory.getShape("Rectangle");
+        shapeRectangle.diagram();
+        Shape something = shapeFactory.getShape("something");
+        something.diagram();
+
+
+        // Demonstrating Abstract Factory Pattern
+        System.out.println("..........");
+        System.out.println("### Abstract Factory Pattern ###");
+        System.out.println("..........");
+        VehicleFactory vehicleFactory = new VehicleFactory();
+
+        Factory luxuryFactory = vehicleFactory.getVehicleFactory("Luxury Car");
+        Vehicle bmw = luxuryFactory.getVehicle("BMW");
+        bmw.vehicleName();
+
+        Factory ordinaryFactory = vehicleFactory.getVehicleFactory("Ordinary Car");
+        Vehicle swift = ordinaryFactory.getVehicle("Swift");
+        swift.vehicleName();
 
     }
 }

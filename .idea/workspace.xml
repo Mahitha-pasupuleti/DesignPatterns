@@ -5,25 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="19f594e6-09f8-4c2d-b818-8370b81fddcf" name="Changes" comment="Design Patterns First Commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/DecoratorPattern/Component/BeverageComponent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DecoratorPattern/Component/CafeLatteBeverageComponent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DecoratorPattern/Component/DecafBeverageComponent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DecoratorPattern/Component/ExpressoBeverageComponent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DecoratorPattern/Decorator/AddOnsDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DecoratorPattern/Decorator/AlmondMilkAddOnDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DecoratorPattern/Decorator/CaramelAddOnDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DecoratorPattern/Decorator/ChocolateAddOnDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DecoratorPattern/Decorator/SugarSyrupAddOnDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DecoratorPattern/Notes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ObserverPattern/WithConstructorInjection/Notes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ObserverPattern/WithConstructorInjection/Observable/News/NewsStationObservable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ObserverPattern/WithConstructorInjection/Observable/News/NewsStationObservableImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ObserverPattern/WithConstructorInjection/Observable/Wearther/WeatherStationObservable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ObserverPattern/WithConstructorInjection/Observable/Wearther/WeatherStationObservableImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ObserverPattern/WithConstructorInjection/Observer/DeviceTypeNewsObserver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ObserverPattern/WithConstructorInjection/Observer/DeviceTypeTemperatureObserver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ObserverPattern/WithConstructorInjection/Observer/MobileObserverImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ObserverPattern/WithConstructorInjection/Observer/TvDisplayObserverImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/AbstractFactoryPattern/Factories/Factory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/AbstractFactoryPattern/Factories/LuxuryFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/AbstractFactoryPattern/Factories/OrdinaryFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/AbstractFactoryPattern/Factories/VehicleFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/AbstractFactoryPattern/Factories/Vehicles/LuxuryVehicleV1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/AbstractFactoryPattern/Factories/Vehicles/LuxuryVehicleV2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/AbstractFactoryPattern/Factories/Vehicles/OrdinaryVehicleV3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/AbstractFactoryPattern/Factories/Vehicles/OrdinaryVehicleV4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/AbstractFactoryPattern/Factories/Vehicles/Vehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/FactoryPattern/Shape/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/FactoryPattern/ShapeFactory/ShapeFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/FactoryPattern/ShapeTypes/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/FactoryPattern/ShapeTypes/DefaultShape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/FactoryPattern/ShapeTypes/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/FactoryPattern/ShapeTypes/Square.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
     </list>
@@ -35,8 +31,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
