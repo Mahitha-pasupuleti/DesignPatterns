@@ -3,7 +3,10 @@ package org.example;
 // Importing Observer pattern classes for weather and news observables and observers
 import AbstractFactoryPattern.Factories.Factory;
 import AbstractFactoryPattern.Factories.VehicleFactory;
-import AbstractFactoryPattern.Factories.Vehicles.Vehicle;
+import AbstractFactoryPattern.Vehicles.Vehicle;
+import ChainOfResponsibiltyPattern.CORMain;
+import CompositePattern.FileSystem;
+import CompositePattern.FileSystemMain;
 import DecoratorPattern.Component.BeverageComponent;
 import DecoratorPattern.Component.CafeLatteBeverageComponent;
 import DecoratorPattern.Component.ExpressoBeverageComponent;
@@ -132,6 +135,20 @@ public class Main {
         Factory ordinaryFactory = vehicleFactory.getVehicleFactory("Ordinary Car");
         Vehicle swift = ordinaryFactory.getVehicle("Swift");
         swift.vehicleName();
+
+        // Demonstrating Composite Pattern
+        System.out.println("..........");
+        System.out.println("### Composite Pattern ###");
+        System.out.println("..........");
+        FileSystemMain fileSystemMain = new FileSystemMain();
+        fileSystemMain.fileSystemMain();
+
+        // Demonstrating ChainOfResponsibility Pattern
+        System.out.println("..........");
+        System.out.println("### ChainOfResponsibility Pattern ###");
+        System.out.println("..........");
+        CORMain corMain = new CORMain();
+        corMain.corMain();
 
     }
 }

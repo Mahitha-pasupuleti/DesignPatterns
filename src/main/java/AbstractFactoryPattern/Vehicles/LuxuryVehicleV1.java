@@ -1,4 +1,4 @@
-package AbstractFactoryPattern.Factories.Vehicles;
+package AbstractFactoryPattern.Vehicles;
 
 public class LuxuryVehicleV1 implements Vehicle {
     @Override

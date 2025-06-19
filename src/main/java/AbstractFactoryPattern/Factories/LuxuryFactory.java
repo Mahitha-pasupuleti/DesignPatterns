@@ -1,8 +1,8 @@
 package AbstractFactoryPattern.Factories;
 
-import AbstractFactoryPattern.Factories.Vehicles.LuxuryVehicleV1;
-import AbstractFactoryPattern.Factories.Vehicles.LuxuryVehicleV2;
-import AbstractFactoryPattern.Factories.Vehicles.Vehicle;
+import AbstractFactoryPattern.Vehicles.LuxuryVehicleV1;
+import AbstractFactoryPattern.Vehicles.LuxuryVehicleV2;
+import AbstractFactoryPattern.Vehicles.Vehicle;
 
 public class LuxuryFactory implements Factory{
     public Vehicle getVehicle(String carName) {

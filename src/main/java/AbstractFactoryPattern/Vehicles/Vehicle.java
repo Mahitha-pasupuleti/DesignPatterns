@@ -1,4 +1,4 @@
-package AbstractFactoryPattern.Factories.Vehicles;
+package AbstractFactoryPattern.Vehicles;
 
 public interface Vehicle {
     public void vehicleName();

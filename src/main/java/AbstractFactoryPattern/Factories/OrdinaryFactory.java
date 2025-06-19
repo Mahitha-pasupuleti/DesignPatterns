@@ -1,8 +1,8 @@
 package AbstractFactoryPattern.Factories;
 
-import AbstractFactoryPattern.Factories.Vehicles.OrdinaryVehicleV3;
-import AbstractFactoryPattern.Factories.Vehicles.OrdinaryVehicleV4;
-import AbstractFactoryPattern.Factories.Vehicles.Vehicle;
+import AbstractFactoryPattern.Vehicles.OrdinaryVehicleV3;
+import AbstractFactoryPattern.Vehicles.OrdinaryVehicleV4;
+import AbstractFactoryPattern.Vehicles.Vehicle;
 
 public class OrdinaryFactory implements Factory {
     public Vehicle getVehicle(String carName) {
