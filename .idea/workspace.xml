@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="19f594e6-09f8-4c2d-b818-8370b81fddcf" name="Changes" comment="Composite Pattern &amp; Chain Of Responsibility Pattern">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ProxyDesignPattern/Client/Admin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ProxyDesignPattern/Employee/EmployeeDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ProxyDesignPattern/Employee/EmployeeImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ProxyDesignPattern/Employee/EmployeeProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ProxyDesignPattern/Main.java" afterDir="false" />
+    <list default="true" id="19f594e6-09f8-4c2d-b818-8370b81fddcf" name="Changes" comment="Proxy Design Pattern">
+      <change afterPath="$PROJECT_DIR$/src/main/java/SingletonPattern/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SingletonPattern/Singleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SingletonPattern/SingletonVersion2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,12 +42,13 @@
     "Application.Main.executor": "Run",
     "Application.ProxyDesignPattern.Client.Main.executor": "Run",
     "Application.ProxyDesignPattern.Main.executor": "Run",
+    "Application.SingletonPattern.Main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.ProxyDesignPattern.Main">
+  <component name="RunManager" selected="Application.SingletonPattern.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Main" />
       <module name="DesignPatterns" />
@@ -76,8 +75,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SingletonPattern.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SingletonPattern.Main" />
+      <module name="DesignPatterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SingletonPattern.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SingletonPattern.Main" />
         <item itemvalue="Application.ProxyDesignPattern.Main" />
         <item itemvalue="Application.Main" />
       </list>
@@ -124,7 +137,15 @@
       <option name="project" value="LOCAL" />
       <updated>1750368324072</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Proxy Design Pattern">
+      <option name="closed" value="true" />
+      <created>1750457305332</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1750457305332</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -152,7 +173,8 @@
     <MESSAGE value="Design Patterns First Commit" />
     <MESSAGE value="Factory Pattern &amp; Abstract Factory Pattern" />
     <MESSAGE value="Composite Pattern &amp; Chain Of Responsibility Pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="Composite Pattern &amp; Chain Of Responsibility Pattern" />
+    <MESSAGE value="Proxy Design Pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="Proxy Design Pattern" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
