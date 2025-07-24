@@ -16,6 +16,8 @@ import DecoratorPattern.Decorator.ChocolateAddOnDecorator;
 import DecoratorPattern.Decorator.SugarSyrupAddOnDecorator;
 import FactoryPattern.Shape.Shape;
 import FactoryPattern.ShapeFactory.ShapeFactory;
+import NullObjectDesignPattern.VehicleType;
+import NullObjectDesignPattern.VehicleTypeFactory;
 import ObserverPattern.WithConstructorInjection.Observable.News.NewsStationObservable;
 import ObserverPattern.WithConstructorInjection.Observable.News.NewsStationObservableImpl;
 import ObserverPattern.WithConstructorInjection.Observable.Wearther.WeatherStationObservable;
@@ -150,5 +152,18 @@ public class Main {
         CORMain corMain = new CORMain();
         corMain.corMain();
 
+        // Demonstrating Null Object Pattern
+        System.out.println("..........");
+        System.out.println("### Null Object Pattern ###");
+        System.out.println("..........");
+        VehicleTypeFactory vehicleTypeFactory = new VehicleTypeFactory();
+        VehicleType car = vehicleTypeFactory.getVehicle("Car");
+        car.vehicleDetails();
+
+        VehicleType bike = vehicleTypeFactory.getVehicle("Bike");
+        bike.vehicleDetails();
+
+        VehicleType other = vehicleTypeFactory.getVehicle("");
+        other.vehicleDetails();
     }
 }
